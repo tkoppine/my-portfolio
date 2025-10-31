@@ -57,7 +57,7 @@
   dependencies:
     "@babel/types" "^7.28.2"
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.28.2", "@babel/runtime@^7.28.3", "@babel/runtime@^7.28.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.28.3", "@babel/runtime@^7.28.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.7":
   version "7.28.4"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.28.4.tgz"
   integrity sha512-Q/N6JNWvIvPnLDvjlE1OUBLPQHH6l3CltCEsHIujp45zQUSSh8K+gHnaEX45yAT1nyngnINhvWtzN+Nb9D8RAQ==
@@ -94,7 +94,7 @@
 
 "@emailjs/browser@^4.4.1":
   version "4.4.1"
-  resolved "https://registry.npmjs.org/@emailjs/browser/-/browser-4.4.1.tgz"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-4.4.1.tgz#ad5684af5a912c0ab415202184845eb3270c4c81"
   integrity sha512-DGSlP9sPvyFba3to2A50kDtZ+pXVp/0rhmqs2LmbMS3I5J8FSOgLwzY2Xb4qfKlOVHh29EAutLYwe5yuEZmEFg==
 
 "@emnapi/core@^1.4.3":
@@ -188,7 +188,7 @@
 
 "@emotion/react@^11.14.0":
   version "11.14.0"
-  resolved "https://registry.npmjs.org/@emotion/react/-/react-11.14.0.tgz"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.14.0.tgz#cfaae35ebc67dd9ef4ea2e9acc6cd29e157dd05d"
   integrity sha512-O000MLDBDdk/EohJPFUqvnp4qnHeYkVP5B0xEG0D/L7cOKP9kefu2DXn8dj74cQfsEzUqh+sr1RzFqiL1o+PpA==
   dependencies:
     "@babel/runtime" "^7.18.3"
@@ -218,7 +218,7 @@
 
 "@emotion/styled@^11.14.1":
   version "11.14.1"
-  resolved "https://registry.npmjs.org/@emotion/styled/-/styled-11.14.1.tgz"
+  resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.14.1.tgz#8c34bed2948e83e1980370305614c20955aacd1c"
   integrity sha512-qEEJt42DuToa3gurlH4Qqc1kVpNq8wO8cJtDzU46TjlzWjDlsVyevtYCRijVq3SrHsROS+gVQ8Fnea108GnKzw==
   dependencies:
     "@babel/runtime" "^7.18.3"
@@ -518,12 +518,12 @@
   resolved "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-7.3.4.tgz"
   integrity sha512-BIktMapG3r4iXwIhYNpvk97ZfYWTreBBQTWjQKbNbzI64+ULHfYavQEX2w99aSWHS58DvXESWIgbD9adKcUOBw==
 
-"@mui/icons-material@^7.3.1":
-  version "7.3.1"
-  resolved "https://registry.npmjs.org/@mui/icons-material/-/icons-material-7.3.1.tgz"
-  integrity sha512-upzCtG6awpL6noEZlJ5Z01khZ9VnLNLaj7tb6iPbN6G97eYfUTs8e9OyPKy3rEms3VQWmVBfri7jzeaRxdFIzA==
+"@mui/icons-material@^7.3.4":
+  version "7.3.4"
+  resolved "https://registry.yarnpkg.com/@mui/icons-material/-/icons-material-7.3.4.tgz#a273879765c369a1865a2eeb1240d71db3e6da19"
+  integrity sha512-9n6Xcq7molXWYb680N2Qx+FRW8oT6j/LXF5PZFH3ph9X/Rct0B/BlLAsFI7iL9ySI6LVLuQIVtrLiPT82R7OZw==
   dependencies:
-    "@babel/runtime" "^7.28.2"
+    "@babel/runtime" "^7.28.4"
 
 "@mui/lab@^7.0.0-beta.16":
   version "7.0.0-beta.17"
@@ -537,9 +537,9 @@
     clsx "^2.1.1"
     prop-types "^15.8.1"
 
-"@mui/material@^7.3.1":
+"@mui/material@^7.3.4":
   version "7.3.4"
-  resolved "https://registry.npmjs.org/@mui/material/-/material-7.3.4.tgz"
+  resolved "https://registry.yarnpkg.com/@mui/material/-/material-7.3.4.tgz#945d69bafd615aaadd29b3a06b91b02d51c26e09"
   integrity sha512-gEQL9pbJZZHT7lYJBKQCS723v1MGys2IFc94COXbUIyCTWa+qC77a7hUax4Yjd5ggEm35dk4AyYABpKKWC4MLw==
   dependencies:
     "@babel/runtime" "^7.28.4"

@@ -94,7 +94,7 @@ export default function Hero() {
                   letterSpacing: "-2px",
                 }}
               >
-                Hi, I'm Teja
+                Hi, I&apos;m Teja
               </Typography>
 
               <Typography
@@ -143,7 +143,7 @@ export default function Hero() {
                 }}
               >
                 Focused on building reliable, scalable applications that solve
-                real problems. I'm passionate about full-stack development,
+                real problems. I&apos;m passionate about full-stack development,
                 crafting intuitive user interfaces, and leveraging AI/ML to
                 create smarter systems. With experience across modern web
                 technologies, cloud platforms, and machine learning frameworks,
@@ -302,7 +302,7 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/profile.jpeg"
+                  src="/my-portfolio/profile.jpeg"
                   alt="Teja Profile"
                   fill
                   style={{

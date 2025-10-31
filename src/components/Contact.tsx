@@ -176,7 +176,7 @@ export default function Contact() {
               fontSize: { xs: "1.3rem", md: "1.8rem" },
             }}
           >
-            Let's Build Something Amazing Together
+            Let&apos;s Build Something Amazing Together
           </Typography>
         </Fade>
 
