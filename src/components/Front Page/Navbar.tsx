@@ -108,7 +108,7 @@ export default function Navbar() {
               }}
               onClick={() => scrollToSection("#home")}
             >
-              Teja
+              Teja Naidu
             </Typography>
 
             <Box sx={{ display: "flex", gap: 1 }}>

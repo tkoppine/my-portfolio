@@ -115,13 +115,19 @@ export default function Projects() {
         "PDF Processing",
         "Vector Search",
       ],
+      imageSx: {
+        objectFit: "contain",
+        backgroundColor: "#181c2a",
+        padding: "16px",
+        height: 200,
+      },
     },
     {
       title: "Instagram Performance Analyzer",
       description:
-        "Comprehensive social media analytics platform for Instagram performance tracking. Features real-time engagement metrics, audience insights, content performance analysis, and automated reporting. Built with modern web technologies and API integrations for comprehensive social media management.",
+        "A comprehensive data science project for analyzing Instagram content performance and optimizing posting strategies. Features automated data extraction (Selenium, Instaloader), advanced analytics (engagement, content type, temporal trends), and an interactive Streamlit dashboard for real-time insights. Includes robust error handling, secure authentication, and professional visualizations. Case study: Cristiano Ronaldo's profile.",
       image: getAssetPath("./instagram.jpg"),
-      github: "https://github.com/tkoppine/Instagram-Performance-Analyzer",
+      github: "https://github.com/tkoppine/instagram_performance_analyzer",
       tech: [
         "Streamlit",
         "Instaloader",
@@ -238,6 +244,7 @@ export default function Projects() {
                         "NYC Cab ETL Pipeline",
                         "Distributed Coding Platform",
                         "Crime Forecasting ML System",
+                        "RAG Academic Research Assistant",
                       ].includes(project.title)
                         ? "contain"
                         : "cover",
@@ -248,13 +255,16 @@ export default function Projects() {
                           ? "#4dd0e1"
                           : project.title === "Crime Forecasting ML System"
                           ? "#2d2d2d"
+                          : project.title === "RAG Academic Research Assistant"
+                          ? "#181c2a"
                           : "transparent",
                       padding: [
                         "NYC Cab ETL Pipeline",
                         "Distributed Coding Platform",
                         "Crime Forecasting ML System",
+                        "RAG Academic Research Assistant",
                       ].includes(project.title)
-                        ? "8px"
+                        ? "16px"
                         : "0",
                       transition: "transform 0.4s ease",
                     }}
