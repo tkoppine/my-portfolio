@@ -5,27 +5,39 @@ import {
   Card,
   CardContent,
   Typography,
-  CardActionArea,
   CardMedia,
   CardActions,
-  IconButton,
   Container,
   Chip,
   Stack,
   Button,
-  useTheme,
   Fade,
   Slide,
 } from "@mui/material";
+
 import { GitHub, Launch } from "@mui/icons-material";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import { getAssetPath } from "../lib/utils";
 
+type Project = {
+  title: string;
+  description: string;
+  image: string;
+  github: string;
+  tech: string[];
+  demo?: string;
+  imageSx?: {
+    objectFit: string;
+    backgroundColor: string;
+    padding: string;
+    height: number;
+  };
+};
+
 export default function Projects() {
-  const theme = useTheme();
   const { ref, isVisible } = useScrollAnimation(0.2);
 
-  const projects = [
+  const projects: Project[] = [
     {
       title: "AWS Student Face Recognition System",
       description:
@@ -168,7 +180,6 @@ export default function Projects() {
           <Typography
             variant="h3"
             align="center"
-            gutterBottom
             sx={{
               color: "#22c55e",
               mb: 2,
@@ -350,13 +361,12 @@ export default function Projects() {
                       >
                         Code
                       </Button>
-                      {"demo" in project &&
-                        (project as any).demo &&
+                      {project.demo &&
                         project.title !== "Distributed Coding Platform" && (
                           <Button
                             size="small"
                             startIcon={<Launch />}
-                            href={(project as any).demo}
+                            href={project.demo}
                             target="_blank"
                             rel="noopener noreferrer"
                             sx={{
