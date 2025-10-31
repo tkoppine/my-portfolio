@@ -24,7 +24,7 @@ export default function Hero() {
         position: "relative",
         overflow: "hidden",
         paddingTop: { xs: "80px", md: "90px" }, // Account for fixed navbar
-        backgroundImage: `url('https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080')`,
+  backgroundImage: `url('${getAssetPath('./sde.jpg')}')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
