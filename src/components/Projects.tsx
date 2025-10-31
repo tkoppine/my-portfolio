@@ -67,7 +67,6 @@ export default function Projects() {
         "A comprehensive coding platform with distributed architecture featuring Java Spring Boot backend, Next.js TypeScript frontend, and microservices worker system. Deployed on AWS EC2 with RDS database, supports multiple programming languages, real-time code execution, automated testing with SQS message queuing, and S3 integration.",
       image: getAssetPath("./coding.webp"),
       github: "https://github.com/tkoppine/coding_platform_backend",
-      demo: "https://coding-platform-demo.vercel.app",
       tech: [
         "Java",
         "Spring Boot",
@@ -351,27 +350,29 @@ export default function Projects() {
                       >
                         Code
                       </Button>
-                      {project.demo && (
-                        <Button
-                          size="small"
-                          startIcon={<Launch />}
-                          href={project.demo}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          sx={{
-                            color: "#22c55e",
-                            textTransform: "none",
-                            fontWeight: 600,
-                            transition: "all 0.3s ease",
-                            "&:hover": {
-                              backgroundColor: "rgba(34, 197, 94, 0.15)",
-                              transform: "translateY(-2px)",
-                            },
-                          }}
-                        >
-                          Demo
-                        </Button>
-                      )}
+                      {"demo" in project &&
+                        (project as any).demo &&
+                        project.title !== "Distributed Coding Platform" && (
+                          <Button
+                            size="small"
+                            startIcon={<Launch />}
+                            href={(project as any).demo}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                              color: "#22c55e",
+                              textTransform: "none",
+                              fontWeight: 600,
+                              transition: "all 0.3s ease",
+                              "&:hover": {
+                                backgroundColor: "rgba(34, 197, 94, 0.15)",
+                                transform: "translateY(-2px)",
+                              },
+                            }}
+                          >
+                            Demo
+                          </Button>
+                        )}
                     </Stack>
                   </CardActions>
                 </Card>
