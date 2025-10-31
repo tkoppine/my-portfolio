@@ -19,6 +19,7 @@ import {
 } from "@mui/material";
 import { GitHub, Launch } from "@mui/icons-material";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import { getAssetPath } from "../lib/utils";
 
 export default function Projects() {
   const theme = useTheme();
@@ -29,7 +30,7 @@ export default function Projects() {
       title: "AWS Student Face Recognition System",
       description:
         "A scalable cloud-based face recognition system for student attendance. Built with microservices architecture using AWS services including S3, Lambda, SQS, and EC2 for automatic scaling. Features Spring Boot API, Python face recognition workers with FaceNet, and real-time processing pipeline.",
-      image: "/my-portfolio/attendance1.png",
+      image: getAssetPath("./attendance1.png"),
       github: "https://github.com/tkoppine/AWS_Project",
       tech: [
         "AWS",
@@ -47,7 +48,7 @@ export default function Projects() {
       title: "NYC Cab ETL Pipeline",
       description:
         "A comprehensive graph data processing pipeline for NYC taxi trip analysis. Implements Neo4j graph database with PageRank and BFS algorithms on large-scale transportation data. Features Docker containerization, Minikube orchestration, real-time data ingestion, and interactive graph visualizations.",
-      image: "/my-portfolio/taxi.jpg",
+      image: getAssetPath("./taxi.jpg"),
       github: "https://github.com/tkoppine/Graph-Data-Processing-Pipeline",
       tech: [
         "Neo4j",
@@ -64,7 +65,7 @@ export default function Projects() {
       title: "Distributed Coding Platform",
       description:
         "A comprehensive coding platform with distributed architecture featuring Java Spring Boot backend, Next.js TypeScript frontend, and microservices worker system. Deployed on AWS EC2 with RDS database, supports multiple programming languages, real-time code execution, automated testing with SQS message queuing, and S3 integration.",
-      image: "/my-portfolio/coding.webp",
+      image: getAssetPath("./coding.webp"),
       github: "https://github.com/tkoppine/coding_platform_backend",
       demo: "https://coding-platform-demo.vercel.app",
       tech: [
@@ -85,7 +86,7 @@ export default function Projects() {
       title: "Crime Forecasting ML System",
       description:
         "Advanced machine learning system for crime prediction in Tempe, Arizona using spatial-temporal analysis. Implements Gradient Boosting, feature engineering with 7x7 spatial grids, and interactive visualization with choropleth maps. Achieves high accuracy with comprehensive model evaluation metrics.",
-      image: "/my-portfolio/crime_patterns.jpg",
+      image: getAssetPath("./crime_patterns.jpg"),
       github:
         "https://github.com/tkoppine/Forecasting-Crime-for-the-City-of-Tempe",
       tech: [
@@ -102,7 +103,7 @@ export default function Projects() {
       title: "RAG Academic Research Assistant",
       description:
         "Intelligent retrieval-augmented generation system for academic paper analysis. Features PDF scraping, multi-modal content processing with CLIP embeddings, FAISS vector storage, and LLM integration. Supports text and image vectorization with Django web interface for seamless research assistance.",
-      image: "/my-portfolio/rag.png",
+      image: getAssetPath("./rag.png"),
       github: "https://github.com/tkoppine/RAG-App",
       tech: [
         "Python",
@@ -119,7 +120,7 @@ export default function Projects() {
       title: "Instagram Performance Analyzer",
       description:
         "Comprehensive social media analytics platform for Instagram performance tracking. Features real-time engagement metrics, audience insights, content performance analysis, and automated reporting. Built with modern web technologies and API integrations for comprehensive social media management.",
-      image: "/my-portfolio/instagram.jpg",
+      image: getAssetPath("./instagram.jpg"),
       github: "https://github.com/tkoppine/Instagram-Performance-Analyzer",
       tech: [
         "Streamlit",

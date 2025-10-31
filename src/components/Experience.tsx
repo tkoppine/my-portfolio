@@ -16,8 +16,9 @@ import {
   ArrowBackIos,
   ArrowForwardIos,
 } from "@mui/icons-material";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useScrollAnimation } from "../hooks/useScrollAnimation";
+import { getAssetPath } from "../lib/utils";
 
 export default function Experience() {
   const theme = useTheme();
@@ -28,7 +29,7 @@ export default function Experience() {
     {
       role: "Software Engineer",
       company: "Sowfin",
-      logo: "/my-portfolio/sowfin_logo.jpg", // Sowfin logo
+      logo: getAssetPath("./sowfin_logo.jpg"), // Sowfin logo
       location: "Remote, USA",
       duration: "June 2025 – September 2025",
       description: [
@@ -55,7 +56,7 @@ export default function Experience() {
     {
       role: "Graduate Assistant / Software Engineer",
       company: "Arizona State University",
-      logo: "/my-portfolio/asu_logo.jpg", // ASU logo
+      logo: getAssetPath("./asu_logo.jpg"), // ASU logo
       location: "Tempe, Arizona, USA",
       duration: "August 2024 – May 2025",
       description: [

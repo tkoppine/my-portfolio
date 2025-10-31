@@ -10,6 +10,7 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import { Download, LinkedIn, GitHub, Code } from "@mui/icons-material";
+import { getAssetPath } from "../../lib/utils";
 
 export default function Hero() {
   const theme = useTheme();
@@ -302,7 +303,7 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/my-portfolio/profile.jpeg"
+                  src={getAssetPath("./profile.jpeg")}
                   alt="Teja Profile"
                   fill
                   style={{
