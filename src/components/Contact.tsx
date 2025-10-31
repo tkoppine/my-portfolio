@@ -54,13 +54,10 @@ export default function Contact() {
     setIsSubmitting(true);
 
     try {
-      // EmailJS configuration
-      const serviceId =
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
-      const templateId =
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "YOUR_TEMPLATE_ID";
-      const publicKey =
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY";
+      // EmailJS configuration - Hardcoded for production
+      const serviceId = "service_xrkmv5p";
+      const templateId = "template_nvt6ljg";
+      const publicKey = "RWRj4QhcwE3mduuFH";
 
       const templateParams = {
         from_name: formData.name,
