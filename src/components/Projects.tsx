@@ -43,7 +43,7 @@ export default function Projects() {
       description:
         "A scalable cloud-based face recognition system for student attendance. Built with microservices architecture using AWS services including S3, Lambda, SQS, and EC2 for automatic scaling. Features Spring Boot API, Python face recognition workers with FaceNet, and real-time processing pipeline.",
       image: getAssetPath("./attendance1.png"),
-      github: "https://github.com/tkoppine/AWS_Project",
+      github: "https://github.com/tkoppine/AI-Powered-Face-Recognition-on-AWS",
       tech: [
         "AWS",
         "S3",
@@ -61,7 +61,7 @@ export default function Projects() {
       description:
         "A comprehensive graph data processing pipeline for NYC taxi trip analysis. Implements Neo4j graph database with PageRank and BFS algorithms on large-scale transportation data. Features Docker containerization, Minikube orchestration, real-time data ingestion, and interactive graph visualizations.",
       image: getAssetPath("./taxi.jpg"),
-      github: "https://github.com/tkoppine/Graph-Data-Processing-Pipeline",
+      github: "https://github.com/tkoppine/NYC-Taxi-Graph-Analytics-Engine",
       tech: [
         "Neo4j",
         "Docker",
@@ -78,7 +78,7 @@ export default function Projects() {
       description:
         "A comprehensive coding platform with distributed architecture featuring Java Spring Boot backend, Next.js TypeScript frontend, and microservices worker system. Deployed on AWS EC2 with RDS database, supports multiple programming languages, real-time code execution, automated testing with SQS message queuing, and S3 integration.",
       image: getAssetPath("./coding.webp"),
-      github: "https://github.com/tkoppine/coding_platform_backend",
+      github: "https://github.com/tkoppine/coding_platform",
       tech: [
         "Java",
         "Spring Boot",
@@ -115,7 +115,7 @@ export default function Projects() {
       description:
         "Intelligent retrieval-augmented generation system for academic paper analysis. Features PDF scraping, multi-modal content processing with CLIP embeddings, FAISS vector storage, and LLM integration. Supports text and image vectorization with Django web interface for seamless research assistance.",
       image: getAssetPath("./rag.png"),
-      github: "https://github.com/tkoppine/RAG-App",
+      github: "https://github.com/tkoppine/ArXiv-Research-Assistant",
       tech: [
         "Python",
         "Django",
