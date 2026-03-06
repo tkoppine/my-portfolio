@@ -210,7 +210,7 @@ export default function Hero() {
                     boxShadow: "0 20px 40px rgba(0,119,181,0.4)",
                   },
                 }}
-                href="https://www.linkedin.com/in/tejanaidukoppineni/"
+                href="https://www.linkedin.com/in/tejak1403/"
                 target="_blank"
               >
                 LinkedIn
@@ -266,7 +266,7 @@ export default function Hero() {
                     boxShadow: "0 20px 40px rgba(255,161,22,0.4)",
                   },
                 }}
-                href="https://leetcode.com/u/Tejak1403/"
+                href="https://leetcode.com/u/teja_naidu_k/"
                 target="_blank"
               >
                 LeetCode

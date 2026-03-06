@@ -116,7 +116,7 @@ export default function Contact() {
       icon: <LinkedIn />,
       title: "LinkedIn",
       value: "linkedin.com/in/tejanaidukoppineni",
-      link: "https://www.linkedin.com/in/tejanaidukoppineni/",
+      link: "https://www.linkedin.com/in/tejak1403/",
     },
     {
       icon: <GitHub />,
