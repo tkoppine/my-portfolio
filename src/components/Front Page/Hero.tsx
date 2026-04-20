@@ -182,7 +182,7 @@ export default function Hero() {
                     background: "rgba(255, 255, 255, 0.25)",
                   },
                 }}
-                href="https://drive.google.com/uc?export=download&id=1fBPnf4kbFgusj_lNpovYvQpUYekUXegS"
+                href="https://drive.google.com/file/d/1U_MXEJaZ2Pt6y8ZXrnvGRmzvCSlecC0u/view?usp=sharing"
                 target="_blank"
               >
                 Resume
